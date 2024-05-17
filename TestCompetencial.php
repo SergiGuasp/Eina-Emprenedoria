@@ -129,26 +129,26 @@
 
         <div class="pregunta pregunta-actual">
             <p class="pregunta-texto">Pregunta 1: Si te preguntaran cuáles son tus mayores fortalezas, ¿sabrías responder?</p>
-            <button type="button" class="invisible-button" onclick="toggleSelected(4);">Sí, y podría poner ejemplos de cómo y dónde las pongo en práctica</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(3);">Sí, pero a veces no sé cómo demostrarlas</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(2);">Sí, pero no creo que me sirvan para emprender</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(1);">No, de hecho me gustaría tenerlas más claras</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(1);">Sí, y podría poner ejemplos de cómo y dónde las pongo en práctica</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(2);">Sí, pero a veces no sé cómo demostrarlas</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(3);">Sí, pero no creo que me sirvan para emprender</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(4);">No, de hecho me gustaría tenerlas más claras</button>
         </div>
 
         <div class="pregunta">
             <p class="pregunta-texto">Pregunta 2: ¿Y tus mayores debilidades?</p>
-            <button type="button" class="invisible-button" onclick="toggleSelected(4);">Sí, y podría explicar cómo las estoy mejorando</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(3);">Sí, pero a veces no sé cómo enfrentarlas</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(2);">Sí, pero no tengo mucha idea de cómo mejorarlas</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(1);">No, de hecho me gustaría tenerlas más claras</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(1);">Sí, y podría explicar cómo las estoy mejorando</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(2);">Sí, pero a veces no sé cómo enfrentarlas</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(3);">Sí, pero no tengo mucha idea de cómo mejorarlas</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(4);">No, de hecho me gustaría tenerlas más claras</button>
         </div>
 
         <div class="pregunta">
             <p class="pregunta-texto">Pregunta 3: ¿Para qué crees que te servirá este ejercicio?</p>
-            <button type="button" class="invisible-button" onclick="toggleSelected(4);">Para saber cómo mejorar mi perfil competencial</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(3);">Para saber qué debo mejorar como emprendedor/a</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(2);">Para saber cómo emprender con éxito</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(1);">Para acceder a los recursos y ayudas del Ayuntamiento</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(1);">Para saber cómo mejorar mi perfil competencial</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(2);">Para saber qué debo mejorar como emprendedor/a</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(3);">Para saber cómo emprender con éxito</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected(4);">Para acceder a los recursos y ayudas del Ayuntamiento</button>
         </div>
 
 
@@ -265,24 +265,30 @@
             divRadar.appendChild(canvas);
 
             var ctx = canvas.getContext('2d');
-            var myRadarChart = new Chart(ctx, {
-                type: 'polarArea',
-                data: {
-                    labels: ['Fortalezas', 'Debilidades', 'Objetivos'],
-                    datasets: [{
-                        data: respuestasPorPregunta,
-                    }]
-                },
-                options: {
-                    plugins: {
-                        legend: {
-                            display: false,
-                            position: 'bottom'
-                        }
-                    }
+    var myRadarChart = new Chart(ctx, {
+        type: 'polarArea',
+        data: {
+            labels: ['Fortalezas', 'Debilidades', 'Objetivos'],
+            datasets: [{
+                data: respuestasPorPregunta,
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    display: false,
+                    position: 'bottom'
                 }
-            });
+            },
+            scales: {
+                r: {
+                    suggestedMin: 0,
+                    suggestedMax: 4
+                }
+            }
         }
+    });
+}
 
 
         function actualizarBarraProgresoTotal() {
