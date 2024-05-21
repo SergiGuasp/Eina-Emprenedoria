@@ -1,10 +1,6 @@
-
-
-
-
-//---------------------------------------//
+<!---------------------------------------//
 // GRUP 1    DISPOSICIÓ A L'APRENENTATGE //
-//---------------------------------------//
+//---------------------------------------->
 
 
 
@@ -35,10 +31,10 @@
 
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 4: Què opines de la formació continua?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 
 <div class="pregunta">
@@ -76,9 +72,9 @@
 
 
 
-//---------------------------------------//
+<!---------------------------------------//
 // GRUP 2    PLANIFICACIÓ I ORGANITZACIÓ //
-//---------------------------------------//
+//---------------------------------------->
 
 
 
@@ -117,10 +113,10 @@
 
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 5: Quina imatge et representa millor?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                       <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                       <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 
 <div class="pregunta">
@@ -141,18 +137,18 @@
 
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 8: "Com arribes als teus objectius? (Pensa en el temps, les energies, els recursos econòmics que has d'utilitzar)"</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                       <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                       <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 
 
 
 
-//-------------------------//
+<!-------------------------//
 // GRUP 3    ADAPTABILITAT //
-//-------------------------//
+//-------------------------->
 
 
 
@@ -183,10 +179,10 @@
 
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 4: Quina imatge et representa millor?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 
 <div class="pregunta">
@@ -199,10 +195,10 @@
 
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 6: Quan passa, com et sents?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 
 <div class="pregunta">
@@ -224,19 +220,19 @@
 
 
 
-//-----------------------//
+<!-----------------------//
 // GRUP 4    RESILIÈNCIA //
-//-----------------------//
+//------------------------>
 
 
 
 
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 1: Com et veus?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 2: Tendeixes a fixar-te més en les teves febleses que en les teves fortaleses?</p>
@@ -268,17 +264,17 @@
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 6: Per afrontar èpoques d'estrès o moments de frustració, quantes maneres coneixes?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 7: Com acostumes a afrontar les situacions difícils?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 8: Quantes d'aquestes activitats realitzes habitualment: parlar amb gent de confiança de com estic, escriure un diari, anar a activitats d'autoconeixement, seguir canals a les xarxes sobre el tema, llegir llibres/veure documentals/escoltar podcasts de creixement personal, demanar suport a un professional.</p>
@@ -291,9 +287,9 @@
 
 
 
-//----------------------//
+<!----------------------//
 // GRUP 5    NETWORKING	//
-//----------------------//
+//----------------------->
 
 
 
@@ -307,10 +303,10 @@
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 2: Hi ha un esdeveniment de networking…</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 3: Quan coneixes a una persona nova, mostres curiositat per conèixer els seus gustos, interessos, capacitats, etc.?</p>
@@ -328,10 +324,10 @@
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 5: Com està la teva xarxa de contactes ?</p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>                   <!-- IMATGES -->
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 6: Quantes d'aquestes  accions has realitzat al llarg dels últims 3 mesos: he anat a un esdeveniment de networking, he muntat/actualitzat/repassat la meva llista de contactes, he parlat (per telèfon o per escrit) amb algun contacte, he quedat presencialment  amb algun contacte, he invertit activament temps en les meves xarxes virtuals professionals (tipus LinkedIn)</p>
@@ -358,9 +354,9 @@
 
 
 
-//----------------------//
+<!----------------------//
 // GRUP 6    NEGOCIACIÓ	//
-//----------------------//
+//----------------------->
 
 
 
@@ -417,8 +413,8 @@
 
 <div class="pregunta">
     <p class="pregunta-texto">Pregunta 8: Quan trobes una informació interessant…/p>
-    <button type="button" class="invisible-button" onclick="toggleSelected(1);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(2);"></button>           //IMATGES
-    <button type="button" class="invisible-button" onclick="toggleSelected(3);"></button>
-    <button type="button" class="invisible-button" onclick="toggleSelected(4);"></button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(1);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(2);">IMAGEN</button>                   <!-- IMATGES -->
+    <button type="button" class="invisible-button" onclick="toggleSelected(3);">IMAGEN</button>
+    <button type="button" class="invisible-button" onclick="toggleSelected(4);">IMAGEN</button>
 </div>

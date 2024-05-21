@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
+
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
@@ -121,7 +121,6 @@
         }
     </style>
 </head>
-
 <body>
     <h1>Test Competencial</h1>
 
@@ -148,12 +147,10 @@
             <button type="button" class="invisible-button" onclick="toggleSelected(1);">Para saber cómo mejorar mi perfil competencial</button>
             <button type="button" class="invisible-button" onclick="toggleSelected(2);">Para saber qué debo mejorar como emprendedor/a</button>
             <button type="button" class="invisible-button" onclick="toggleSelected(3);">Para saber cómo emprender con éxito</button>
-            <button type="button" class="invisible-button" onclick="toggleSelected(4);">Para acceder a los recursos y ayudas del Ayuntamiento</button>
+            <button type="button" class="invisible-button" onclick="toggleSelected();">Para acceder a los recursos y ayudas del Ayuntamiento</button>
         </div>
 
-
         <button type="button" id="siguiente-pregunta" onclick="mostrarSiguientePregunta()">Siguiente Pregunta</button>
-
 
         <button type="button" id="finalizar-test" style="display: none;" onclick="finalizarTest()">Finalizar Test</button>
 
@@ -255,7 +252,6 @@
             });
 
             var divRadar = document.getElementById('resultado_radar');
-
             divRadar.innerHTML = '';
 
             var canvas = document.createElement('canvas');
@@ -290,7 +286,6 @@
     });
 }
 
-
         function actualizarBarraProgresoTotal() {
             var totalPreguntas = document.querySelectorAll('.pregunta').length;
             var preguntasRespondidas = respuestasPorPregunta.length;
@@ -300,7 +295,6 @@
 
             var customProgressBar = document.querySelector('#custom-progress-bar .progress');
             customProgressBar.style.width = porcentaje + '%';
-
         }
 
         function toggleSelected(valor) {
@@ -314,5 +308,4 @@
         }
     </script>
 </body>
-
 </html>
