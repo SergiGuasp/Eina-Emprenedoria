@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <a href="TestCompetencial.php"><button>Ir a Test Competencial</button></a>
+    <a href="InicioTest.php"><button>Ir a Test Competencial</button></a>
     <a href="Competencies.php"><button>Ir a Competencies</button></a>
     <a href="Recursos.php"><button>Ir a Recursos</button></a>
 </body>
